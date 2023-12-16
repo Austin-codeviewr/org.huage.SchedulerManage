@@ -1,0 +1,76 @@
+2023-12-16 13:02:13.8757——INFO——Register the Scheduler to task container.
+2023-12-16 13:02:15.5363——INFO——BackGround Service has all register.
+2023-12-16 13:02:20.0299——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:02:20.0299——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:02:30.0112——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:02:30.0112——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:02:40.0056——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:02:40.0056——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:02:50.0058——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:02:50.0058——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:03:20.9451——INFO——Register the Scheduler to task container.
+2023-12-16 13:03:22.4624——INFO——BackGround Service has all register.
+2023-12-16 13:03:30.0418——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:03:30.0418——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:03:40.0173——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:03:40.0173——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:03:50.0072——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:03:50.0072——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:04:00.0236——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:04:00.0236——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:04:10.0155——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:04:10.0155——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:04:20.0182——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:04:20.0216——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:04:52.8117——INFO——Register the Scheduler to task container.
+2023-12-16 13:04:54.2747——INFO——Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `s`.`Id`, `s`.`CreateBy`, `s`.`CreateTime`, `s`.`CronExpression`, `s`.`IsDeleted`, `s`.`JobStatus`, `s`.`MethodName`, `s`.`MethodParams`, `s`.`Remark`, `s`.`RequestType`, `s`.`StartTime`, `s`.`UpdateBy`, `s`.`UpdateTime`, `s`.`Url`
+FROM `Scheduler` AS `s`
+WHERE NOT (`s`.`IsDeleted`) AND NOT (`s`.`IsDeleted`)
+ORDER BY `s`.`UpdateTime` DESC
+2023-12-16 13:04:54.3679——INFO——BackGround Service has all register.
+2023-12-16 13:04:54.4385——INFO——Now listening on: http://localhost:5197
+2023-12-16 13:04:54.4385——INFO——Application started. Press Ctrl+C to shut down.
+2023-12-16 13:04:54.4439——INFO——Hosting environment: Development
+2023-12-16 13:04:54.4439——INFO——Content root path: F:\SelfProject\org.huage.SchedulerManage\org.huage.Api
+2023-12-16 13:05:00.0343——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:05:00.0370——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:05:10.0163——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:05:10.0163——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:05:20.0091——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:05:20.0091——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:09:37.9457——INFO——Register the Scheduler to task container.
+2023-12-16 13:09:39.4684——INFO——BackGround Service has all register.
+2023-12-16 13:09:50.0324——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:09:50.0324——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:10:00.0147——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:10:00.0147——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:10:10.0157——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:10:10.0157——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:10:20.0119——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:10:20.0119——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:10:47.2528——INFO——Register the Scheduler to task container.
+2023-12-16 13:10:48.6911——INFO——Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `s`.`Id`, `s`.`CreateBy`, `s`.`CreateTime`, `s`.`CronExpression`, `s`.`IsDeleted`, `s`.`JobStatus`, `s`.`MethodName`, `s`.`MethodParams`, `s`.`Remark`, `s`.`RequestType`, `s`.`StartTime`, `s`.`UpdateBy`, `s`.`UpdateTime`, `s`.`Url`
+FROM `Scheduler` AS `s`
+WHERE NOT (`s`.`IsDeleted`) AND NOT (`s`.`IsDeleted`)
+ORDER BY `s`.`UpdateTime` DESC
+2023-12-16 13:10:48.7836——INFO——BackGround Service has all register.
+2023-12-16 13:10:48.8560——INFO——Now listening on: http://localhost:5197
+2023-12-16 13:10:48.8560——INFO——Application started. Press Ctrl+C to shut down.
+2023-12-16 13:10:48.8560——INFO——Hosting environment: Development
+2023-12-16 13:10:48.8560——INFO——Content root path: F:\SelfProject\org.huage.SchedulerManage\org.huage.Api
+2023-12-16 13:11:00.0318——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:00.0318——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:10.0130——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:10.0130——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:20.0087——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:20.0087——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:30.0211——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:30.0211——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:40.0107——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:40.0107——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:50.0122——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:11:50.0122——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:12:00.0079——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}
+2023-12-16 13:12:00.0079——INFO——Current execute url: http://localhost:5086/Redis/PostTest, param is {"name":"aa","age":0,"student":{"stuNo":"aa","stuAge":"aa"}}

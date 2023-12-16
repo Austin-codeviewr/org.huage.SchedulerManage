@@ -1,0 +1,325 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Api\\org.huage.Api.csproj": {}
+  },
+  "projects": {
+    "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Api\\org.huage.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Api\\org.huage.Api.csproj",
+        "projectName": "org.huage.Api",
+        "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Api\\org.huage.Api.csproj",
+        "packagesPath": "C:\\Users\\www90\\.nuget\\packages\\",
+        "outputPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\www90\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.BizManagement\\org.huage.BizManagement.csproj": {
+                "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.BizManagement\\org.huage.BizManagement.csproj"
+              },
+              "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj": {
+                "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Consul": {
+              "target": "Package",
+              "version": "[1.7.14.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.7, )"
+            },
+            "SkyAPM.Agent.AspNetCore": {
+              "target": "Package",
+              "version": "[0.9.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.BizManagement\\org.huage.BizManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.BizManagement\\org.huage.BizManagement.csproj",
+        "projectName": "org.huage.BizManagement",
+        "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.BizManagement\\org.huage.BizManagement.csproj",
+        "packagesPath": "C:\\Users\\www90\\.nuget\\packages\\",
+        "outputPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.BizManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\www90\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj": {
+                "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj"
+              },
+              "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Entity\\org.huage.Entity.csproj": {
+                "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Entity\\org.huage.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.122, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj",
+        "projectName": "org.huage.EntityFramewok.Database",
+        "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj",
+        "packagesPath": "C:\\Users\\www90\\.nuget\\packages\\",
+        "outputPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\www90\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Entity\\org.huage.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Entity\\org.huage.Entity.csproj",
+        "projectName": "org.huage.Entity",
+        "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Entity\\org.huage.Entity.csproj",
+        "packagesPath": "C:\\Users\\www90\\.nuget\\packages\\",
+        "outputPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\www90\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj": {
+                "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

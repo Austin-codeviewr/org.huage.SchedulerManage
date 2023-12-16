@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EJ5n7J3IYGWHHrFUMnf6+UFlGnaEuQfcA8Xa9PNPSZw=",
+  "Source": "org.huage.Api",
+  "BasePath": "_content/org.huage.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.huage.EntityFramewok.Database", "org.huage.EntityFramewok.Database\org.huage.EntityFramewok.Database.csproj", "{30B75731-C095-40D8-AFBF-11C99F273DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.huage.Entity", "org.huage.Entity\org.huage.Entity.csproj", "{70CEAD7B-E200-4AA0-A7B5-FC837519B1DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.huage.Api", "org.huage.Api\org.huage.Api.csproj", "{4278BAAC-5D7D-480E-893A-DA2E358B96EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.huage.BizManagement", "org.huage.BizManagement\org.huage.BizManagement.csproj", "{EFCE864C-01AD-4BF1-A7F6-601BC2D7D56F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30B75731-C095-40D8-AFBF-11C99F273DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B75731-C095-40D8-AFBF-11C99F273DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B75731-C095-40D8-AFBF-11C99F273DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B75731-C095-40D8-AFBF-11C99F273DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CEAD7B-E200-4AA0-A7B5-FC837519B1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CEAD7B-E200-4AA0-A7B5-FC837519B1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CEAD7B-E200-4AA0-A7B5-FC837519B1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CEAD7B-E200-4AA0-A7B5-FC837519B1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4278BAAC-5D7D-480E-893A-DA2E358B96EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4278BAAC-5D7D-480E-893A-DA2E358B96EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4278BAAC-5D7D-480E-893A-DA2E358B96EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4278BAAC-5D7D-480E-893A-DA2E358B96EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCE864C-01AD-4BF1-A7F6-601BC2D7D56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCE864C-01AD-4BF1-A7F6-601BC2D7D56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCE864C-01AD-4BF1-A7F6-601BC2D7D56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCE864C-01AD-4BF1-A7F6-601BC2D7D56F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
