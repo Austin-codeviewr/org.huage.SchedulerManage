@@ -26,3 +26,4 @@ E:\code\C#\project\GenericStudy\org.huage.SchedulerManage\org.huage.EntityFramew
 E:\code\C#\project\GenericStudy\org.huage.SchedulerManage\org.huage.EntityFramewok.Database\obj\Debug\net7.0\org.huage.EntityFramewok.Database.pdb
 E:\code\C#\project\GenericStudy\org.huage.SchedulerManage\org.huage.EntityFramewok.Database\obj\Debug\net7.0\org.huage.EntityFramewok.Database.genruntimeconfig.cache
 E:\code\C#\project\GenericStudy\org.huage.SchedulerManage\org.huage.EntityFramewok.Database\obj\Debug\net7.0\ref\org.huage.EntityFramewok.Database.dll
+F:\SelfProject\org.huage.SchedulerManage\org.huage.EntityFramewok.Database\obj\Debug\net7.0\org.huage.EntityFramewok.Database.sourcelink.json

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GAuKtW6O/lGQHTnqYLOQ0SDPa8HeJtYH40vHr0IP9yR56SGqo/E0K80DmfJNk8sZQI8ttyIJdiBDiHKPcYYhVw==",
+  "dgSpecHash": "1NIRqtQR0wG3GZalkiMlgPPUjo3YY/O1CQc8fp75TUWhAht9Vw+5MfFilo6RS13yoOz3KuPl9ONBUyfeDiu0Kg==",
   "success": true,
   "projectFilePath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Api\\org.huage.Api.csproj",
   "expectedPackageFiles": [
@@ -165,7 +165,8 @@
     "C:\\Users\\www90\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\www90\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\www90\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\www90\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\www90\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\www90\\.nuget\\packages\\org.huage.bizmanagement\\1.0.0\\org.huage.bizmanagement.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

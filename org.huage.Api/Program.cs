@@ -1,10 +1,9 @@
-using NLog.Web;
+﻿using NLog.Web;
 using org.huage.Api.consul;
 using org.huage.Api.Extension;
 using org.huage.BizManagement.Job;
 using org.huage.BizManagement.Manager;
 using org.huage.BizManagement.MapProfile;
-using org.huage.BizManagement.Proxy;
 using org.huage.BizManagement.Redis;
 using Quartz;
 using Quartz.Impl;
@@ -39,9 +38,13 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseDeveloperExceptionPage();
 }
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
+
 app.UseConsulRegistry(app.Lifetime);
 
 app.MapGet("/api/health", () =>

@@ -16,6 +16,7 @@
           "SkyAPM.Agent.AspNetCore": "0.9.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "org.huage.BizManagement": "1.0.0",
+          "org.huage.Entity": "1.0.0",
           "org.huage.EntityFramewok.Database": "1.0.0"
         },
         "runtime": {

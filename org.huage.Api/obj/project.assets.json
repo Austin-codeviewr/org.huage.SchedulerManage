@@ -8401,6 +8401,7 @@
       "SkyAPM.Agent.AspNetCore >= 0.9.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "org.huage.BizManagement >= 1.0.0",
+      "org.huage.Entity >= 1.0.0",
       "org.huage.EntityFramewok.Database >= 1.0.0"
     ]
   },
@@ -8436,6 +8437,9 @@
             },
             "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj": {
               "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.EntityFramewok.Database\\org.huage.EntityFramewok.Database.csproj"
+            },
+            "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Entity\\org.huage.Entity.csproj": {
+              "projectPath": "F:\\SelfProject\\org.huage.SchedulerManage\\org.huage.Entity\\org.huage.Entity.csproj"
             }
           }
         }
@@ -8500,7 +8504,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

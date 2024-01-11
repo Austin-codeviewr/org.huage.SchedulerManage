@@ -4,6 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <IsPackable>true</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
@@ -20,12 +21,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\org.huage.BizManagement\org.huage.BizManagement.csproj" />
-      <ProjectReference Include="..\org.huage.EntityFramewok.Database\org.huage.EntityFramewok.Database.csproj" />
+      <Folder Include="logs\" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="logs\" />
+      <ProjectReference Include="..\org.huage.BizManagement\org.huage.BizManagement.csproj" />
+      <ProjectReference Include="..\org.huage.EntityFramewok.Database\org.huage.EntityFramewok.Database.csproj" />
+      <ProjectReference Include="..\org.huage.Entity\org.huage.Entity.csproj" />
     </ItemGroup>
 
     <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

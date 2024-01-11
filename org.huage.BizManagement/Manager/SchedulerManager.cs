@@ -88,9 +88,9 @@ public class SchedulerManager : ISchedulerManager
         await _redisHelper.DelKey(RedisKeyGenerator.AllSchedulersRedisKey());
         var schedulerUpdate = _mapper.Map<Scheduler>(rateRequest);
 
-        schedulerUpdate.UpdateBy = "test";
+        schedulerUpdate.UpdateBy = rateRequest.UpdateBy;
         _wrapper.Scheduler.Update(schedulerUpdate);
-
+        await _wrapper.SaveChangeAsync();
         //1.移除原来的job; 2.修改trigger; 3.重新调度jobDetail
 
         await _quartzManage.UpdateJobRate(SchedulerKeyGenerator.JobKey(rateRequest.Id), SchedulerKeyGenerator.GroupKey(rateRequest.Id), rateRequest.Remark, rateRequest.CronExpression, rateRequest.StartTime);
@@ -132,6 +132,7 @@ public class SchedulerManager : ISchedulerManager
         {
             scheduler.JobStatus = statusRequest.Status;
             _wrapper.Scheduler.Update(scheduler);
+            await _wrapper.SaveChangeAsync();
             return true;
         }
 
@@ -146,14 +147,13 @@ public class SchedulerManager : ISchedulerManager
     /// <exception cref="SchedulerException"></exception>
     public async Task<UpdateSchedulerResponse> UpdateSchedulerAsync(UpdateSchedulerRequest request)
     {
-        
         //Delay double delete.
         await _redisHelper.DelKey(RedisKeyGenerator.AllSchedulersRedisKey());
         
         //更新数据库
         var updateScheduler = _mapper.Map<Scheduler>(request);
         _wrapper.Scheduler.Update(updateScheduler);
-        
+        await _wrapper.SaveChangeAsync();
         await _redisHelper.DelKey(RedisKeyGenerator.AllSchedulersRedisKey());
         
         var response = new UpdateSchedulerResponse();

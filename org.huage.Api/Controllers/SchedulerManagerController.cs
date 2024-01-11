@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using org.huage.BizManagement.Manager;
 using org.huage.Entity.common;
 using org.huage.Entity.Request;
@@ -174,5 +174,5 @@ public class SchedulerManagerController
             throw schedulerException;
         }
     }
-    
+
 }

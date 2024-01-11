@@ -23,9 +23,4 @@
                       Lines="@(EFProjectMetadata)" />
   </Target>
 </Project>
-   </ItemGroup>
-    <WriteLinesToFile Condition=" '$(TargetFramework)' != '' "
-                      File="$(EFProjectMetadataFile)"
-                      Lines="@(EFProjectMetadata)" />
-  </Target>
-</Project>
+
