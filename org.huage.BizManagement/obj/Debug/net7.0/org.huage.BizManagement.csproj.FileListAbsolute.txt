@@ -33,3 +33,5 @@ F:\SelfProject\org.huage.SchedulerManage\org.huage.BizManagement\obj\Debug\net7.
 F:\SelfProject\org.huage.SchedulerManage\org.huage.BizManagement\obj\Debug\net7.0\org.huage.BizManagement.pdb
 F:\SelfProject\org.huage.SchedulerManage\org.huage.BizManagement\obj\Debug\net7.0\ref\org.huage.BizManagement.dll
 F:\SelfProject\org.huage.SchedulerManage\org.huage.BizManagement\obj\Debug\net7.0\org.huage.BizManagement.sourcelink.json
+F:\SelfProject\org.huage.SchedulerManage\org.huage.BizManagement\bin\Debug\net7.0\org.huage.BizManagement.xml
+F:\SelfProject\org.huage.SchedulerManage\org.huage.BizManagement\obj\Debug\net7.0\org.huage.BizManagement.xml

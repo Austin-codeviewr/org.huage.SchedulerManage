@@ -202,3 +202,6 @@ F:\SelfProject\org.huage.SchedulerManage\org.huage.Api\obj\Debug\net7.0\org.huag
 F:\SelfProject\org.huage.SchedulerManage\org.huage.Api\obj\Debug\net7.0\org.huage.Api.genruntimeconfig.cache
 F:\SelfProject\org.huage.SchedulerManage\org.huage.Api\obj\Debug\net7.0\ref\org.huage.Api.dll
 F:\SelfProject\org.huage.SchedulerManage\org.huage.Api\obj\Debug\net7.0\org.huage.Api.sourcelink.json
+F:\SelfProject\org.huage.SchedulerManage\org.huage.Api\bin\Debug\net7.0\org.huage.Api.xml
+F:\SelfProject\org.huage.SchedulerManage\org.huage.Api\obj\Debug\net7.0\org.huage.Api.xml
+F:\SelfProject\org.huage.SchedulerManage\org.huage.Api\bin\Debug\net7.0\org.huage.BizManagement.xml
